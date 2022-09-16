@@ -1,0 +1,27 @@
+{
+    "name": "mnemesong/orm-to-aura-adapter",
+    "description": "Mnemesong-orm to Aura-query-builder adapter",
+    "type": "library",
+    "require": {
+        "mnemesong/orm-core": "*",
+        "aura/sqlquery": "*",
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpstan/phpstan": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mnemesong\\OrmToAuraAdapter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pantagruel74",
+            "email": "tostar74@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
